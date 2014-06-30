@@ -1,6 +1,6 @@
 ﻿namespace NTTData.Com.Common
 {
-    internal class Product
+    public class Product
     {
         #region Fields
 
@@ -12,6 +12,8 @@
         #endregion Fields
 
         #region Constructors
+
+        public Product() { }
 
         public Product(string productID, string categoryID, string productName, string productDescription)
         {

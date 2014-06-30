@@ -42,6 +42,16 @@
     <Compile Include="PetStoreService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NTTData.Com.BusinessLayer\NTTData.Com.BusinessLayer.csproj">
+      <Project>{e326ccf3-51bb-44fa-9142-54c936b1fa33}</Project>
+      <Name>NTTData.Com.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NTTData.Com.Common\NTTData.Com.Common.csproj">
+      <Project>{03484516-4d7e-4f56-8c79-7af7652d2864}</Project>
+      <Name>NTTData.Com.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

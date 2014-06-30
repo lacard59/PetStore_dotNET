@@ -12,6 +12,8 @@
 
         #region Constructors
 
+        public Category() { }
+
         public Category(string categoryID, string categoryName, string categoryDescription)
         {
             this.categoryDescription = categoryDescription;

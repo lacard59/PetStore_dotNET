@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NTTData.Com.Common
 {
-    class Item
+    public class Item
     {
         private int categoryID;
 
@@ -65,5 +65,7 @@ namespace NTTData.Com.Common
             this.itemPrice = itemPrice;
             this.productID = productID;
         }
+
+        public Item() { }
     }
 }

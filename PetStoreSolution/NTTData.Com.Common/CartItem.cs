@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NTTData.Com.Common
 {
-    class CartItem
+    public class CartItem
     {
         private Item item;
 
@@ -29,5 +29,7 @@ namespace NTTData.Com.Common
             this.item = item;
             this.quantity = quantity;
         }
+
+        public CartItem() { }
     }
 }
