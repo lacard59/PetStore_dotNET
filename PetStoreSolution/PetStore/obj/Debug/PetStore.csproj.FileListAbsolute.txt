@@ -1,0 +1,8 @@
+C:\VisualStudio2012\Projects\PetStoreSolution\PetStore\bin\Debug\PetStore.exe.config
+C:\VisualStudio2012\Projects\PetStoreSolution\PetStore\bin\Debug\PetStore.exe
+C:\VisualStudio2012\Projects\PetStoreSolution\PetStore\bin\Debug\PetStore.pdb
+C:\VisualStudio2012\Projects\PetStoreSolution\PetStore\obj\Debug\PetStore.csprojResolveAssemblyReference.cache
+C:\VisualStudio2012\Projects\PetStoreSolution\PetStore\obj\Debug\PetStore.Properties.Resources.resources
+C:\VisualStudio2012\Projects\PetStoreSolution\PetStore\obj\Debug\PetStore.csproj.GenerateResource.Cache
+C:\VisualStudio2012\Projects\PetStoreSolution\PetStore\obj\Debug\PetStore.exe
+C:\VisualStudio2012\Projects\PetStoreSolution\PetStore\obj\Debug\PetStore.pdb

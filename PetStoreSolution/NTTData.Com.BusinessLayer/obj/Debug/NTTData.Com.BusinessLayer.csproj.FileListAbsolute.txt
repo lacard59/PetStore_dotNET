@@ -1,0 +1,5 @@
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.BusinessLayer.dll
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.BusinessLayer.pdb
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.BusinessLayer\obj\Debug\NTTData.Com.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.BusinessLayer\obj\Debug\NTTData.Com.BusinessLayer.dll
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.BusinessLayer\obj\Debug\NTTData.Com.BusinessLayer.pdb

@@ -1,0 +1,5 @@
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.ServiceLayer\bin\Debug\NTTData.Com.ServiceLayer.dll
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.ServiceLayer\bin\Debug\NTTData.Com.ServiceLayer.pdb
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.csprojResolveAssemblyReference.cache
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.dll
+C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.pdb
