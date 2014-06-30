@@ -3,3 +3,8 @@ C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.ServiceLayer\bin\Debug
 C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.csprojResolveAssemblyReference.cache
 C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.dll
 C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.pdb
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.ServiceLayer\bin\Debug\NTTData.Com.ServiceLayer.dll
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.ServiceLayer\bin\Debug\NTTData.Com.ServiceLayer.pdb
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.csprojResolveAssemblyReference.cache
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.dll
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.pdb

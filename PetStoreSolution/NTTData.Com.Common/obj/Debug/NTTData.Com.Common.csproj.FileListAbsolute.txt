@@ -3,3 +3,8 @@ C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.Common\bin\Debug\NTTDa
 C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.csprojResolveAssemblyReference.cache
 C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.dll
 C:\VisualStudio2012\Projects\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.pdb
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.Common\bin\Debug\NTTData.Com.Common.dll
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.Common\bin\Debug\NTTData.Com.Common.pdb
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.csprojResolveAssemblyReference.cache
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.dll
+C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.pdb
