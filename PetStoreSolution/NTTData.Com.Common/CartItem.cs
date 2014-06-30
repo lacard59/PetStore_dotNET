@@ -1,28 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NTTData.Com.Common
+﻿namespace NTTData.Com.Common
 {
     public class CartItem
     {
+        #region Fields
+
         private Item item;
-
-        public Item Item
-        {
-            get { return item; }
-            set { item = value; }
-        }
-
         private int quantity;
 
-        public int Quantity
-        {
-            get { return quantity; }
-            set { quantity = value; }
-        }
+        #endregion Fields
+
+        #region Constructors
 
         public CartItem(Item item, int quantity)
         {
@@ -30,6 +17,26 @@ namespace NTTData.Com.Common
             this.quantity = quantity;
         }
 
-        public CartItem() { }
+        public CartItem()
+        {
+        }
+
+        #endregion Constructors
+
+        #region Properties
+
+        public Item Item
+        {
+            get { return item; }
+            set { item = value; }
+        }
+
+        public int Quantity
+        {
+            get { return quantity; }
+            set { quantity = value; }
+        }
+
+        #endregion Properties
     }
 }

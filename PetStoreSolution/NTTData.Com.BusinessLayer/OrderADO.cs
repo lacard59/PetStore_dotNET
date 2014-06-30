@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NTTData.Com.Common;
+﻿using NTTData.Com.Common;
 
 namespace NTTData.Com.BusinessLayer
 {
     public class OrderADO
     {
+        #region Methods
+
         public static object GetPurchaseDetails(int orderID)
         {
             object test = new object();
@@ -20,5 +17,7 @@ namespace NTTData.Com.BusinessLayer
             object test = new object();
             return test;
         }
+
+        #endregion Methods
     }
 }

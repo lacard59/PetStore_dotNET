@@ -1,60 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace NTTData.Com.Common
+﻿namespace NTTData.Com.Common
 {
     public class Item
     {
+        #region Fields
+
         private int categoryID;
-
-        public int CategoryID
-        {
-            get { return categoryID; }
-            set { categoryID = value; }
-        }
-
         private string itemDescription;
-
-        public string ItemDescription
-        {
-            get { return itemDescription; }
-            set { itemDescription = value; }
-        }
-
         private int itemID;
-
-        public int ItemID
-        {
-            get { return itemID; }
-            set { itemID = value; }
-        }
-
         private string itemName;
-
-        public string ItemName
-        {
-            get { return itemName; }
-            set { itemName = value; }
-        }
-
         private float itemPrice;
-
-        public float ItemPrice
-        {
-            get { return itemPrice; }
-            set { itemPrice = value; }
-        }
-
         private int productID;
 
-        public int ProductID
-        {
-            get { return productID; }
-            set { productID = value; }
-        }
+        #endregion Fields
+
+        #region Constructors
 
         public Item(int itemID, int productID, int categoryID, string itemName, string itemDescription, float itemPrice)
         {
@@ -66,6 +25,50 @@ namespace NTTData.Com.Common
             this.productID = productID;
         }
 
-        public Item() { }
+        public Item()
+        {
+        }
+
+        #endregion Constructors
+
+        #region Properties
+
+        public int CategoryID
+        {
+            get { return categoryID; }
+            set { categoryID = value; }
+        }
+
+        public string ItemDescription
+        {
+            get { return itemDescription; }
+            set { itemDescription = value; }
+        }
+
+        public int ItemID
+        {
+            get { return itemID; }
+            set { itemID = value; }
+        }
+
+        public string ItemName
+        {
+            get { return itemName; }
+            set { itemName = value; }
+        }
+
+        public float ItemPrice
+        {
+            get { return itemPrice; }
+            set { itemPrice = value; }
+        }
+
+        public int ProductID
+        {
+            get { return productID; }
+            set { productID = value; }
+        }
+
+        #endregion Properties
     }
 }

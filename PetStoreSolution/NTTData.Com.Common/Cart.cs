@@ -1,36 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace NTTData.Com.Common
 {
     public class Cart
     {
+        #region Fields
+
         private List<CartItem> cartItems;
-
-        public List<CartItem> CartItems
-        {
-            get { return cartItems; }
-            set { cartItems = value; }
-        }
-
         private string custID;
-
-        public string CustID
-        {
-            get { return custID; }
-            set { custID = value; }
-        }
-
         private int orderID;
 
-        public int OrderID
-        {
-            get { return orderID; }
-            set { orderID = value; }
-        }
+        #endregion Fields
+
+        #region Constructors
 
         public Cart(int orderID, string custID, List<CartItem> cartItems)
         {
@@ -45,6 +27,32 @@ namespace NTTData.Com.Common
             this.cartItems = cartItems;
         }
 
-        public Cart() { }
+        public Cart()
+        {
+        }
+
+        #endregion Constructors
+
+        #region Properties
+
+        public List<CartItem> CartItems
+        {
+            get { return cartItems; }
+            set { cartItems = value; }
+        }
+
+        public string CustID
+        {
+            get { return custID; }
+            set { custID = value; }
+        }
+
+        public int OrderID
+        {
+            get { return orderID; }
+            set { orderID = value; }
+        }
+
+        #endregion Properties
     }
 }

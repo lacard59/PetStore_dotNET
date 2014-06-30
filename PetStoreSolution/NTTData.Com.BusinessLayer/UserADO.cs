@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NTTData.Com.Common;
+﻿using NTTData.Com.Common;
 
 namespace NTTData.Com.BusinessLayer
 {
     public static class UserADO
     {
+        #region Methods
+
         public static Customer RegisterUser(Customer customerObj)
         {
             Customer test = customerObj;
@@ -19,5 +16,7 @@ namespace NTTData.Com.BusinessLayer
         {
             return false;
         }
+
+        #endregion Methods
     }
 }

@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using NTTData.Com.Common;
 
 namespace NTTData.Com.BusinessLayer
 {
     public class ProductADO
     {
+        #region Methods
+
         public static List<Category> GetCatByID(int categID)
         {
             List<Category> test = new List<Category>();
@@ -44,5 +42,7 @@ namespace NTTData.Com.BusinessLayer
             List<Product> test = new List<Product>();
             return test;
         }
+
+        #endregion Methods
     }
 }
