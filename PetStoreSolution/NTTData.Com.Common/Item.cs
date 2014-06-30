@@ -8,5 +8,6 @@ namespace NTTData.Com.Common
 {
     class Item
     {
+
     }
 }
