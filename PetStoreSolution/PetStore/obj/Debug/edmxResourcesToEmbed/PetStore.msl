@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PetStoreModelStoreContainer" CdmEntityContainer="PetStoreEntities">
+    <EntitySetMapping Name="Category_Products">
+      <EntityTypeMapping TypeName="PetStoreModel.Category_Products">
+        <MappingFragment StoreEntitySet="Category_Products">
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="CategID" ColumnName="CategID" />
+          <ScalarProperty Name="ProdName" ColumnName="ProdName" />
+          <ScalarProperty Name="ProdDesc" ColumnName="ProdDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditCard_Info">
+      <EntityTypeMapping TypeName="PetStoreModel.CreditCard_Info">
+        <MappingFragment StoreEntitySet="CreditCard_Info">
+          <ScalarProperty Name="CreditCardNo" ColumnName="CreditCardNo" />
+          <ScalarProperty Name="CardType" ColumnName="CardType" />
+          <ScalarProperty Name="ExpiryDt" ColumnName="ExpiryDt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product_Line_Items">
+      <EntityTypeMapping TypeName="PetStoreModel.Product_Line_Items">
+        <MappingFragment StoreEntitySet="Product_Line_Items">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="CategID" ColumnName="CategID" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="ItemDesc" ColumnName="ItemDesc" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PS_Categories">
+      <EntityTypeMapping TypeName="PetStoreModel.PS_Categories">
+        <MappingFragment StoreEntitySet="PS_Categories">
+          <ScalarProperty Name="CategID" ColumnName="CategID" />
+          <ScalarProperty Name="CategName" ColumnName="CategName" />
+          <ScalarProperty Name="CategDesc" ColumnName="CategDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PS_Customer">
+      <EntityTypeMapping TypeName="PetStoreModel.PS_Customer">
+        <MappingFragment StoreEntitySet="PS_Customer">
+          <ScalarProperty Name="CustID" ColumnName="CustID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="CreditCardNo" ColumnName="CreditCardNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PS_Orders">
+      <EntityTypeMapping TypeName="PetStoreModel.PS_Orders">
+        <MappingFragment StoreEntitySet="PS_Orders">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CustID" ColumnName="CustID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PS_User">
+      <EntityTypeMapping TypeName="PetStoreModel.PS_User">
+        <MappingFragment StoreEntitySet="PS_User">
+          <ScalarProperty Name="CustID" ColumnName="CustID" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Purchase_Detail">
+      <EntityTypeMapping TypeName="PetStoreModel.Purchase_Detail">
+        <MappingFragment StoreEntitySet="Purchase_Detail">
+          <ScalarProperty Name="PurchaseDetailID" ColumnName="PurchaseDetailID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ProdID" ColumnName="ProdID" />
+          <ScalarProperty Name="CategID" ColumnName="CategID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="PetStoreModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="PetStoreModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="PetStoreModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="PetStoreModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="PetStoreModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PetStoreModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="PetStoreModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PetStoreModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="PetStoreModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="PetStoreModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

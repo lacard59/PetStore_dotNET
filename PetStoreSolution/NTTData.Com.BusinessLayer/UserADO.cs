@@ -6,9 +6,9 @@ namespace NTTData.Com.BusinessLayer
     {
         #region Methods
 
-        public static Customer RegisterUser(Customer customerObj)
+        public static object RegisterUser(Customer customerObj)
         {
-            Customer test = customerObj;
+            object test = customerObj;
             return test;
         }
 
