@@ -8,3 +8,8 @@ C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.Common\bin\Debug\NTTData.Com
 C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.csprojResolveAssemblyReference.cache
 C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.dll
 C:\Git\PetStore_dotNET\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.pdb
+C:\Git\PetStore\PetStoreSolution\NTTData.Com.Common\bin\Debug\NTTData.Com.Common.dll
+C:\Git\PetStore\PetStoreSolution\NTTData.Com.Common\bin\Debug\NTTData.Com.Common.pdb
+C:\Git\PetStore\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.csprojResolveAssemblyReference.cache
+C:\Git\PetStore\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.dll
+C:\Git\PetStore\PetStoreSolution\NTTData.Com.Common\obj\Debug\NTTData.Com.Common.pdb

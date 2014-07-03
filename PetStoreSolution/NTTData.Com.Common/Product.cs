@@ -13,7 +13,9 @@
 
         #region Constructors
 
-        public Product() { }
+        public Product()
+        {
+        }
 
         public Product(string productID, string categoryID, string productName, string productDescription)
         {

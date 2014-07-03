@@ -61,62 +61,14 @@
     <Compile Include="Catalog.Designer.cs">
       <DependentUpon>Catalog.cs</DependentUpon>
     </Compile>
-    <Compile Include="Category_Products.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CreditCard_Info.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
     <Compile Include="HomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HomeForm.Designer.cs">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PetStore.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PetStore.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PetStore.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PetStore.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PetStore.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Product_Line_Items.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PS_Categories.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PS_Customer.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PS_Orders.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PS_User.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Purchase_Detail.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sysdiagram.cs">
-      <DependentUpon>PetStore.tt</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -126,24 +78,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EntityDeploy Include="PetStore.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>PetStore.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="packages.config" />
-    <None Include="PetStore.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PetStore.edmx</DependentUpon>
-      <LastGenOutput>PetStore.Context.cs</LastGenOutput>
-    </None>
-    <None Include="PetStore.edmx.diagram">
-      <DependentUpon>PetStore.edmx</DependentUpon>
-    </None>
-    <None Include="PetStore.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PetStore.edmx</DependentUpon>
-      <LastGenOutput>PetStore.cs</LastGenOutput>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

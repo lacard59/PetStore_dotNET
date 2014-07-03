@@ -12,7 +12,9 @@
 
         #region Constructors
 
-        public Category() { }
+        public Category()
+        {
+        }
 
         public Category(string categoryID, string categoryName, string categoryDescription)
         {

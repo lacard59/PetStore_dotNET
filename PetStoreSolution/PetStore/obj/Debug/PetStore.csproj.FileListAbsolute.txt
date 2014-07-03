@@ -17,3 +17,14 @@ C:\Git\PetStore_dotNET\PetStoreSolution\PetStore\bin\Debug\EntityFramework.dll
 C:\Git\PetStore_dotNET\PetStoreSolution\PetStore\bin\Debug\EntityFramework.SqlServer.dll
 C:\Git\PetStore_dotNET\PetStoreSolution\PetStore\bin\Debug\EntityFramework.xml
 C:\Git\PetStore_dotNET\PetStoreSolution\PetStore\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.exe
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.pdb
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\PetStore.exe
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\PetStore.pdb
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\EntityFramework.dll
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\EntityFramework.xml
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.csprojResolveAssemblyReference.cache
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.Properties.Resources.resources
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.csproj.GenerateResource.Cache

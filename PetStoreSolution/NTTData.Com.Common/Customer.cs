@@ -21,7 +21,9 @@ namespace NTTData.Com.Common
 
         #region [Constructors]
 
-        public Customer() { }
+        public Customer()
+        {
+        }
 
         public Customer(string custID, string password, string firstName, string lastName, DateTime dateOfBirth,
             string address, int contactNumber, string creditCardNo, string cardType, DateTime cardExpiryDate)

@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
-using NTTData.Com.BusinessLayer;
+﻿using NTTData.Com.BusinessLayer;
 using NTTData.Com.Common;
+using System.Collections.Generic;
 
 namespace NTTData.Com.ServiceLayer
 {
