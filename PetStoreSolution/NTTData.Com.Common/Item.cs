@@ -15,7 +15,7 @@
 
         #region Constructors
 
-        public Item(int itemID, int productID, int categoryID, string itemName, string itemDescription, float itemPrice)
+        public Item(int itemID, int categoryID, int productID, string itemName, string itemDescription, float itemPrice)
         {
             this.categoryID = categoryID;
             this.itemDescription = itemDescription;

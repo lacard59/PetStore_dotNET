@@ -51,6 +51,10 @@
       <Project>{03484516-4d7e-4f56-8c79-7af7652d2864}</Project>
       <Name>NTTData.Com.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NTTData.Com.DataLayer\NTTData.Com.DataLayer.csproj">
+      <Project>{aef2af9e-d3d8-47d3-822d-d62987c6cd35}</Project>
+      <Name>NTTData.Com.DataLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -28,3 +28,17 @@ C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\EntityFramework.SqlServer.xm
 C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.csprojResolveAssemblyReference.cache
 C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.Properties.Resources.resources
 C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.csproj.GenerateResource.Cache
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.HomeForm.resources
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\NTTData.Com.BusinessLayer.dll
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\NTTData.Com.Common.dll
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\NTTData.Com.DataLayer.dll
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\NTTData.Com.BusinessLayer.pdb
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\NTTData.Com.Common.pdb
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\NTTData.Com.DataLayer.pdb
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\NTTData.Com.ServiceLayer.dll
+C:\Git\PetStore\PetStoreSolution\PetStore\bin\Debug\NTTData.Com.ServiceLayer.pdb
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.Login.resources
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.Register.resources
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.Categories.resources
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.Items.resources
+C:\Git\PetStore\PetStoreSolution\PetStore\obj\Debug\PetStore.Products.resources

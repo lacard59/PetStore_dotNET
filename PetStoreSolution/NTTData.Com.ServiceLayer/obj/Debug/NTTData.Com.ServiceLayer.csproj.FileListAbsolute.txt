@@ -21,3 +21,5 @@ C:\Git\PetStore\PetStoreSolution\NTTData.Com.ServiceLayer\bin\Debug\NTTData.Com.
 C:\Git\PetStore\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.csprojResolveAssemblyReference.cache
 C:\Git\PetStore\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.dll
 C:\Git\PetStore\PetStoreSolution\NTTData.Com.ServiceLayer\obj\Debug\NTTData.Com.ServiceLayer.pdb
+C:\Git\PetStore\PetStoreSolution\NTTData.Com.ServiceLayer\bin\Debug\NTTData.Com.DataLayer.dll
+C:\Git\PetStore\PetStoreSolution\NTTData.Com.ServiceLayer\bin\Debug\NTTData.Com.DataLayer.pdb

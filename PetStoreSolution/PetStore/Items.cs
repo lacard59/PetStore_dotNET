@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PetStore
 {
-    public partial class Catalog : Form
+    public partial class Items : Form
     {
-        public Catalog()
+        public Items()
         {
             InitializeComponent();
         }
