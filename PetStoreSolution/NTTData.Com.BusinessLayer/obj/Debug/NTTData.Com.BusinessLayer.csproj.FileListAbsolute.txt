@@ -19,3 +19,12 @@ C:\Git\PetStore\PetStoreSolution\NTTData.Com.BusinessLayer\obj\Debug\NTTData.Com
 C:\Git\PetStore\PetStoreSolution\NTTData.Com.BusinessLayer\obj\Debug\NTTData.Com.BusinessLayer.pdb
 C:\Git\PetStore\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.DataLayer.dll
 C:\Git\PetStore\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.DataLayer.pdb
+C:\Users\Luis\Desktop\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.BusinessLayer.dll
+C:\Users\Luis\Desktop\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.BusinessLayer.pdb
+C:\Users\Luis\Desktop\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.Common.dll
+C:\Users\Luis\Desktop\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.DataLayer.dll
+C:\Users\Luis\Desktop\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.Common.pdb
+C:\Users\Luis\Desktop\PetStoreSolution\NTTData.Com.BusinessLayer\bin\Debug\NTTData.Com.DataLayer.pdb
+C:\Users\Luis\Desktop\PetStoreSolution\NTTData.Com.BusinessLayer\obj\Debug\NTTData.Com.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Desktop\PetStoreSolution\NTTData.Com.BusinessLayer\obj\Debug\NTTData.Com.BusinessLayer.dll
+C:\Users\Luis\Desktop\PetStoreSolution\NTTData.Com.BusinessLayer\obj\Debug\NTTData.Com.BusinessLayer.pdb

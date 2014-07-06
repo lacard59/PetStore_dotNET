@@ -1,72 +1,52 @@
-﻿using NTTData.Com.BusinessLayer;
-using NTTData.Com.Common;
-using NTTData.Com.ServiceLayer;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 
 namespace PetStore
 {
     public delegate void DisplayDelegate();
+
     public partial class HomeForm : Form
     {
-        
+        #region Private Fields
+
+        private static string custID;
+
+        #endregion Private Fields
+
+        #region Public Constructors
+
         public HomeForm()
         {
             InitializeComponent();
         }
 
+        #endregion Public Constructors
+
+        #region Public Properties
+
+        public static string CustID
+        {
+            get { return custID; }
+            set { custID = value; }
+        }
+
+        #endregion Public Properties
+
+        #region Public Methods
+
         public void DisableLogin()
-        {            
+        {
             registerLoginToolStripMenuItem.Enabled = false;
             catalogCategoriesToolStripMenuItem.Enabled = true;
         }
-                
-        private void registerLoginToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            DisplayDelegate dis = new DisplayDelegate(this.DisableLogin);
-            DialogResult result = MessageBox.Show("Are you an Existing Customer?", "Login/Register", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes) 
-            {
-                Login form = new Login(dis);
-                form.ShowInTaskbar = false;
-                form.MdiParent = this;
-                form.Show(); 
-            }
-            else if (result == DialogResult.No) 
-            {
-                Register form = new Register(dis);
-                form.ShowInTaskbar = false;
-                form.MdiParent = this;
-                form.Show(); 
-            }
-        }
 
-        private void categoriesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Categories form = new Categories();
-            form.ShowInTaskbar = false;
-            form.MdiParent = this;
-            form.Show();
-        }
+        #endregion Public Methods
 
-        private void productsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Products form = new Products();
-            form.ShowInTaskbar = false;
-            form.MdiParent = this;
-            form.Show();
-        }
+        #region Private Methods
 
-        private void itemsToolStripMenuItem_Click(object sender, EventArgs e)
+        private void catalogCategoriesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Items form = new Items();
+            Catalog form = new Catalog();
             form.ShowInTaskbar = false;
             form.MdiParent = this;
             form.Show();
@@ -77,13 +57,34 @@ namespace PetStore
             this.Close();
         }
 
+        private void registerLoginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DisplayDelegate dis = new DisplayDelegate(this.DisableLogin);
+            DialogResult result = MessageBox.Show("Are you an Existing Customer?", "Login/Register", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                Login form = new Login(dis);
+                form.ShowInTaskbar = false;
+                form.MdiParent = this;
+                form.Show();
+            }
+            else if (result == DialogResult.No)
+            {
+                Register form = new Register(dis);
+                form.ShowInTaskbar = false;
+                form.MdiParent = this;
+                form.Show();
+            }
+        }
 
-
+        #endregion Private Methods
 
         #region [Function Tests]
+
         //private void TestBtn_Click(object sender, EventArgs e)
         //{
-            #region [ValidateUser Test]
+
+        #region [ValidateUser Test]
 
         //    //bool var = false;
         //    //try { var = PetStoreService.ValidateUser("lennin", "op"); }
@@ -95,9 +96,9 @@ namespace PetStore
         //    //}
         //    //else { MessageBox.Show("Fail-sauce!!! - Validate User"); }
 
-            #endregion [ValidateUser Test]
+        #endregion [ValidateUser Test]
 
-            #region [RegisterUser Test]
+        #region [RegisterUser Test]
 
         //    //Customer test = new Customer("lazer", "op", "Larz", "Lazer", new DateTime(1988, 10, 9), "9876 Smith Ave.", 0987, "7890", "VISA", new DateTime(2018, 7, 30));
         //    //bool var = false;
@@ -110,9 +111,9 @@ namespace PetStore
         //    //}
         //    //else { MessageBox.Show("Fail-sauce!!! - Register User/Store Procedure!!!\n" + PetStoreService.GetMessage()); }
 
-            #endregion [RegisterUser Test]
+        #endregion [RegisterUser Test]
 
-            #region [GetCategories Test]
+        #region [GetCategories Test]
 
         //    //try
         //    //{
@@ -126,9 +127,9 @@ namespace PetStore
         //    //}
         //    //catch (Exception exceptionOne) { MessageBox.Show(exceptionOne.Message); }
 
-            #endregion [GetCategories Test]
+        #endregion [GetCategories Test]
 
-            #region [GetCategoryByID Test]
+        #region [GetCategoryByID Test]
 
         //    //try
         //    //{
@@ -139,9 +140,9 @@ namespace PetStore
         //    //}
         //    //catch (Exception exceptionOne) { MessageBox.Show(exceptionOne.Message); }
 
-            #endregion [GetCategoryByID Test]
+        #endregion [GetCategoryByID Test]
 
-            #region [GetProductList Test]
+        #region [GetProductList Test]
 
         //    //try
         //    //{
@@ -156,9 +157,9 @@ namespace PetStore
         //    //}
         //    //catch (Exception exceptionOne) { MessageBox.Show(exceptionOne.Message); }
 
-            #endregion [GetProductList Test]
+        #endregion [GetProductList Test]
 
-            #region [GetProduct Test]
+        #region [GetProduct Test]
 
         //    //try
         //    //{
@@ -170,9 +171,9 @@ namespace PetStore
         //    //}
         //    //catch (Exception exceptionTwo) { MessageBox.Show(exceptionTwo.Message); }
 
-            #endregion [GetProduct Test]
+        #endregion [GetProduct Test]
 
-            #region [GetItemList Test]
+        #region [GetItemList Test]
 
         //    //try
         //    //{
@@ -188,9 +189,9 @@ namespace PetStore
         //    //}
         //    //catch (Exception exceptionTwo) { MessageBox.Show(exceptionTwo.Message); }
 
-            #endregion [GetItemList Test]
+        #endregion [GetItemList Test]
 
-            #region [GetItem Test]
+        #region [GetItem Test]
 
         //    //try
         //    //{
@@ -202,9 +203,9 @@ namespace PetStore
         //    //}
         //    //catch (Exception exceptionTwo) { MessageBox.Show(exceptionTwo.Message); }
 
-            #endregion [GetItem Test]
+        #endregion [GetItem Test]
 
-            #region [GetPurchaseDetails Test]
+        #region [GetPurchaseDetails Test]
 
         //    //try
         //    //{
@@ -218,9 +219,9 @@ namespace PetStore
         //    //}
         //    //catch (Exception exceptionTwo) { MessageBox.Show(exceptionTwo.Message); }
 
-            #endregion [GetPurchaseDetails Test]
+        #endregion [GetPurchaseDetails Test]
 
-            #region [PlaceOrder Test]
+        #region [PlaceOrder Test]
 
         //    Item testitem;
         //    List<CartItem> testList = new List<CartItem>();
@@ -239,8 +240,10 @@ namespace PetStore
         //    }
         //    catch (Exception exceptionTwo) { MessageBox.Show(exceptionTwo.Message); }
 
-            #endregion [PlaceOrder Test]
-        //} 
+        #endregion [PlaceOrder Test]
+
+        //}
+
         #endregion [Function Tests]
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace NTTData.Com.Common
+﻿using System.Text;
+
+namespace NTTData.Com.Common
 {
     public class Item
     {
@@ -70,5 +72,18 @@
         }
 
         #endregion Properties
+
+        #region Public Methods
+
+        public string toString()
+        {
+            StringBuilder str = new StringBuilder();
+            str.Append(itemID).Append(" | \t").Append(categoryID).Append(" | \t")
+                .Append(productID).Append(" | \t").Append(itemName).Append(" | \t")
+                .Append(itemDescription).Append(" | \t").Append(itemPrice);
+            return str.ToString();
+        }
+
+        #endregion Public Methods
     }
 }

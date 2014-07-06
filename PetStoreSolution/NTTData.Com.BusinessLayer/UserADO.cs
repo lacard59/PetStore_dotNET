@@ -11,6 +11,17 @@ namespace NTTData.Com.BusinessLayer
     {
         #region Methods
 
+        public static void AddParameter(SqlCommand command, SqlParameter parameter, string pName, SqlDbType type, object val, ParameterDirection dir)
+        {
+            parameter = new SqlParameter();
+            parameter.ParameterName = pName;
+            parameter.SqlDbType = type;
+            parameter.Value = val;
+            parameter.Direction = dir;
+            parameter.Size = 100;
+            command.Parameters.Add(parameter);
+        }
+
         public static object RegisterUser(Customer customerObj)
         {
             List<string> result = new List<string>();
@@ -87,18 +98,6 @@ namespace NTTData.Com.BusinessLayer
             if (result > 0) { return true; }
             else { return false; }
         }
-
-        public static void AddParameter(SqlCommand command, SqlParameter parameter, string pName, SqlDbType type, object val, ParameterDirection dir)
-        {
-            parameter = new SqlParameter();
-            parameter.ParameterName = pName;
-            parameter.SqlDbType = type;
-            parameter.Value = val;
-            parameter.Direction = dir;
-            parameter.Size = 100;
-            command.Parameters.Add(parameter);
-        }
-
         #endregion Methods
     }
 }

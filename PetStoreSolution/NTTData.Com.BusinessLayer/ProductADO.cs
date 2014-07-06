@@ -2,7 +2,6 @@
 using NTTData.Com.DataLayer;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
 
 namespace NTTData.Com.BusinessLayer
@@ -118,17 +117,20 @@ namespace NTTData.Com.BusinessLayer
                     if (reader[0] != DBNull.Value)
                     {
                         #region [variables test]
+
                         //int test1 = int.Parse(reader.GetDecimal(0).ToString());
                         //int test2 = int.Parse(reader.GetDecimal(1).ToString());
                         //int test3 = int.Parse(reader.GetDecimal(2).ToString());
                         //string test4 = reader.GetString(3);
                         //string test5 = reader.GetString(4);
-                        //float test6 = float.Parse(reader.GetDecimal(5).ToString()); 
-                        #endregion
-                        item = new Item(int.Parse(reader.GetDecimal(0).ToString()), 
+                        //float test6 = float.Parse(reader.GetDecimal(5).ToString());
+
+                        #endregion [variables test]
+
+                        item = new Item(int.Parse(reader.GetDecimal(0).ToString()),
                             int.Parse(reader.GetDecimal(1).ToString()),
-                            int.Parse(reader.GetDecimal(2).ToString()), 
-                            reader.GetString(3), reader.GetString(4), 
+                            int.Parse(reader.GetDecimal(2).ToString()),
+                            reader.GetString(3), reader.GetString(4),
                             float.Parse(reader.GetDecimal(5).ToString()));
                         items.Add(item);
                     }
@@ -139,7 +141,6 @@ namespace NTTData.Com.BusinessLayer
             finally { DBConnection.CloseConnection(conn); }
 
             return items;
-
         }
 
         public static List<Product> GetProduct(int categID, int productID)
@@ -147,7 +148,7 @@ namespace NTTData.Com.BusinessLayer
             List<Product> products = new List<Product>();
             Product product;
 
-            string query = "SELECT ProdID, CategID, ProdName, ProdDesc FROM Category_Products WHERE CategID = " 
+            string query = "SELECT ProdID, CategID, ProdName, ProdDesc FROM Category_Products WHERE CategID = "
                 + categID + " AND ProdID = " + productID;
             SqlConnection conn;
             try { conn = DBConnection.OpenConnection(); }
@@ -161,7 +162,7 @@ namespace NTTData.Com.BusinessLayer
                 while (reader.Read())
                 {
                     if (reader[0] != DBNull.Value)
-                    { 
+                    {
                         product = new Product(reader.GetDecimal(0).ToString(), reader.GetDecimal(1).ToString(), reader.GetString(2), reader.GetString(3));
                         products.Add(product);
                     }
@@ -187,15 +188,15 @@ namespace NTTData.Com.BusinessLayer
             SqlDataReader reader;
             try { reader = command.ExecuteReader(); }
             catch (Exception exceptionOne) { throw exceptionOne; }
-            try 
+            try
             {
                 while (reader.Read())
                 {
                     product = new Product(reader.GetDecimal(0).ToString(), reader.GetDecimal(1).ToString(), reader.GetString(2), reader.GetString(3));
-                    products.Add(product);                     
+                    products.Add(product);
                 }
                 DBConnection.CloseConnection(conn);
-            }            
+            }
             catch (Exception exceptionOne) { throw exceptionOne; }
             finally { DBConnection.CloseConnection(conn); }
 
